@@ -1,6 +1,6 @@
 package sorting;
 /*
- * 정
+ * 정렬
  * K번째수
  * Java
  */
