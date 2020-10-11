@@ -1,7 +1,7 @@
 package kakaoBlindRecruitment2020;
 /*
  * 2020 KAKAO BLIND RECRUITMENT
- * °ýÈ£º¯È¯
+ * ê´„í˜¸ ë³€í™˜
  * Java
  */
 public class BracketError {

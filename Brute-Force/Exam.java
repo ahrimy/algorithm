@@ -1,8 +1,8 @@
 package bruteforce;
 
 /*
- * ¿ÏÀüÅ½»ö
- * ¸ğÀÇ°í»ç
+ * ì™„ì „íƒìƒ‰
+ * ëª¨ì˜ê³ ì‚¬
  * Java
  */
 public class Exam {

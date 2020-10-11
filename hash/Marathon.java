@@ -1,8 +1,8 @@
 package hash;
 
 /*
- * ÇØ½Ã
- * ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö
+ * í•´ì‹œ
+ * ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜
  * Java
  * */
 import java.util.HashMap;

@@ -1,7 +1,7 @@
 package summer_winter_coding2018;
 /*
  * Summer/Winter Coding(~2018)
- * ¼Ò¼ö¸¸µé±â
+ * ì†Œìˆ˜ ë§Œë“¤ê¸°
  * Java
  */
 import java.util.HashSet;

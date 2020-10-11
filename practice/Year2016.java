@@ -1,7 +1,7 @@
 package practice;
 /*
- * ¿¬½À¹®Á¦
- * 2016³â
+ * ì—°ìŠµë¬¸ì œ
+ * 2016ë…„
  * Java
  */
 public class Year2016 {

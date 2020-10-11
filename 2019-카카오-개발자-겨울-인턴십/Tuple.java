@@ -1,7 +1,7 @@
 package kakaoIntershipTest2019w;
 /*
- * 2019 Ä«Ä«¿À °³¹ßÀÚ °Ü¿ï ÀÎÅÏ½Ê
- * Æ©ÇÃ
+ * 2019 ì¹´ì¹´ì˜¤ ê°œë°œì ê²¨ìš¸ ì¸í„´ì‹­
+ * íŠœí”Œ
  * Java
  */
 public class Tuple {

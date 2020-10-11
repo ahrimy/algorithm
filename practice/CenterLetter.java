@@ -1,7 +1,7 @@
 package practice;
 /*
- * ¿¬½À¹®Á¦
- * °¡¿îµ¥ ±ÛÀÚ °¡Á®¿À±â
+ * ì—°ìŠµë¬¸
+ * ê°€ìš´ë° ê¸€ì ê°€ì ¸ì˜¤ê¸°
  * Java
  */
 public class CenterLetter {

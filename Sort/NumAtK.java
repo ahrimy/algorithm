@@ -1,7 +1,7 @@
 package sorting;
 /*
- * Á¤·Ä
- * K¹øÂ° ¼ö
+ * ì •
+ * Kë²ˆì§¸ìˆ˜
  * Java
  */
 public class NumAtK {

@@ -1,8 +1,8 @@
 package greedy;
 
 /*
- * Å½¿å¹ı(Greedy)
- * Ã¼À°º¹
+ * íƒìš•ë²•(Greedy)
+ * ì²´ìœ¡ë³µ
  * Java
  */
 public class PEClass {

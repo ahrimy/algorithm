@@ -1,7 +1,7 @@
 package practice;
 /*
- * ¿¬½À¹®Á¦
- * °°Àº ¼ıÀÚ´Â ½È¾î
+ * ì—°ìŠµë¬¸ì œ
+ * ê°™ì€ ìˆ«ìëŠ” ì‹«ì–´
  * Java
  */
 public class DeleteSameNum {
