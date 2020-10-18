@@ -1,5 +1,3 @@
-package greedy;
-
 /*
  * 탐욕법(Greedy)
  * 체육복
