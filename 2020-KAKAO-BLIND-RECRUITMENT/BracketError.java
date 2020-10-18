@@ -1,4 +1,3 @@
-package kakaoBlindRecruitment2020;
 /*
  * 2020 KAKAO BLIND RECRUITMENT
  * 괄호 변환
