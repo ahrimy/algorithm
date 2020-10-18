@@ -1,5 +1,3 @@
-package bruteforce;
-
 /*
  * 완전탐색
  * 모의고사
