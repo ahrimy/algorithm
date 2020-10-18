@@ -1,4 +1,3 @@
-package sorting;
 /*
  * 정렬
  * K번째수
