@@ -1,4 +1,3 @@
-package practice;
 /*
  * 연습문제
  * 2016년
