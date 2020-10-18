@@ -1,4 +1,3 @@
-package summer_winter_coding2018;
 /*
  * Summer/Winter Coding(~2018)
  * 소수 만들기
