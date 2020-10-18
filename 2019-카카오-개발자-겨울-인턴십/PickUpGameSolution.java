@@ -1,4 +1,3 @@
-package kakaoIntershipTest2019w;
 /*
  * 2019 카카오 개발자 겨울 인턴
  * 크레인 인형뽑기 게임
