@@ -3,8 +3,7 @@
  * 소수 만들기
  * Java
  */
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
