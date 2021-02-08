@@ -6,9 +6,6 @@ int n;
 char color[51][51];
 char copi[51][51];
 
-//int dx[] = {-1, 1, 0, 0};
-//int dy[] = {0, 0, -1, 1};
-
 int go() {
 	int res = 1;
 
