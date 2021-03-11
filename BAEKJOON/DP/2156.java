@@ -1,29 +1,44 @@
 import java.io.*;
 
 class _2156 {
-    public static int[][] count = new int[41][2];
-    public static void main(String[] args) throws IOException{
+    public static long[] dp;
+    public static int[] glass;
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int t = Integer.parseInt(br.readLine());
-        count[0][0] = 1;
-        count[0][1] = 0;
-        count[1][0] = 0;
-        count[1][1] = 1;
-        for(int i=0;i<t;i++){
-            int n = Integer.parseInt(br.readLine());
-            int[] result = fibonacci(n);
-            bw.write(result[0] + " " + result[1] + "\n");
+        int n = Integer.parseInt(br.readLine());
+        glass = new int[n + 1];
+        dp = new long[n + 1];
+        for (int i = 1; i <= n; i++) {
+            glass[i] = Integer.parseInt(br.readLine());
         }
+        dp[1] = glass[1];
+        long answer = dp[1];
+        if (n > 1) {
+            dp[2] = glass[1] + glass[2];
+            answer = recursive(n);
+        }
+        bw.write(answer + "\n");
         bw.close();
     }
-    public static int[] fibonacci(int n){
-        if(n > 1 && count[n][1] == 0){
-            int[] first = fibonacci(n-1);
-            int[] second = fibonacci(n-2);
-            count[n][0]  = first[0] + second[0];
-            count[n][1]  = first[1] + second[1];
+
+    public static long recursive(int n) {
+        if (dp[n] > 0 || n < 3) {
+            return dp[n];
         }
-        return count[n];
+        long[] compare = new long[3];
+        compare[0] = glass[n] + glass[n - 1] + recursive(n - 3);
+        compare[1] = glass[n] + recursive(n - 2);
+        compare[2] = recursive(n - 1);
+
+        long max = 0;
+        for (int i = 0; i < 3; i++) {
+            if (compare[i] > max) {
+                max = compare[i];
+            }
+        }
+        dp[n] = max;
+        return dp[n];
     }
 }
