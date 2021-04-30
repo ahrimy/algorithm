@@ -18,14 +18,14 @@ class Solution {
         for(int i=0;i<visited.length;i++){
             visited[i] = false;
         }
-        this.words = words;
-        this.begin = begin;
-        this.target = target;
-        this.count = words.length;
+        Solution.words = words;
+        Solution.begin = begin;
+        Solution.target = target;
+        Solution.count = words.length;
         
         this.dfs(-1, 0, visited);
 
-        int answer = this.count;
+        int answer = Solution.count;
         return answer;
     }
 
@@ -35,8 +35,8 @@ class Solution {
             visited[index] = true;
             word = words[index];   
             if(word.equals(target)){
-               if(this.count > count){
-                   this.count = count;
+               if(Solution.count > count){
+                Solution.count = count;
                }
                 visited[index] = false;
                 return;
