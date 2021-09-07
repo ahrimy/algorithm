@@ -4,9 +4,6 @@
  * Java
  */
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
 public class CountPAndY {
     boolean solution(String s) {
         // Java 8 기능 (가장 느림)
@@ -16,18 +13,8 @@ public class CountPAndY {
         // long y = str.chars().filter(ch -> ch == 'y').count();
         
         // 정규식 사용
-        // Pattern pattern = Pattern.compile("[p|P]");
-        // Matcher matcher = pattern.matcher(s);
-        // int p = 0;
-        // while (matcher.find()) {
-        //     p++;
-        // }
-        // pattern = Pattern.compile("[y|Y]");
-        // matcher = pattern.matcher(s);
-        // int y = 0;
-        // while (matcher.find()) {
-        //     y++;
-        // }
+        // int p = s.replaceAll("[pP]", "").length();
+        // int y = s.replaceAll("[yY]", "").length();
         
         // 반복문 사용 (가장 빠름)
         String str = s.toLowerCase();
