@@ -1,4 +1,10 @@
-class Solution {
+/*
+ * 2021 KAKAO BLIND RECRUITMENT
+ * 신규 아이디 추천
+ * Java
+ */
+
+public class NewID {
     public String solution(String new_id) {
         String answer = "";
         //1단계
