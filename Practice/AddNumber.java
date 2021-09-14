@@ -4,7 +4,7 @@
  * Java
  */
 
-public class Solution {
+public class AddNumber {
     public int solution(int n) {
         int answer = 0;
         
