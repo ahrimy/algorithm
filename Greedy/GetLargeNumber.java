@@ -4,6 +4,8 @@
  * Java
  */
 
+import java.util.Stack;
+
 public class GetLargeNumber {
     public String solution(String number, int k) {
         int remove = k;
