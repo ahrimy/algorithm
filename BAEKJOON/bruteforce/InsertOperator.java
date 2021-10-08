@@ -1,3 +1,4 @@
+package bruteforce;
 /**
  * 14888
  * 연산자 끼워넣기

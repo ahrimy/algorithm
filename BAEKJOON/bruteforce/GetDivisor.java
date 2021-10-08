@@ -1,3 +1,4 @@
+package bruteforce;
 /**
  * 2501
  * 약수 구하기
